@@ -12,7 +12,30 @@ public class Main {
 
         int[] birds = {3, 5, 7, 9};
 
+        // Задача 2
 
+        for (int i = 0; i < animals.length; i++) {
+            if (i < (animals.length-1)) {
+                System.out.print(animals[i] + ", ");
+            } else {
+                System.out.println(animals[i]);
+            }
+        }
 
+        for (int i = 0; i < weights.length; i++) {
+            if (i < (weights.length-1)) {
+                System.out.print(weights[i] + ", ");
+            } else {
+                System.out.println(weights[i]);
+            }
+        }
+
+        for (int i = 0; i < birds.length; i++) {
+            if (i < (birds.length-1)) {
+                System.out.print(birds[i] + ", ");
+            } else {
+                System.out.println(birds[i]);
+            }
+        }
     }
 }
