@@ -66,5 +66,23 @@ public class Main {
                 System.out.print(birds[i - 1]);
             }
         }
+
+        // Задача 4
+
+        System.out.println("\n");
+
+        for (int i = 0; i < animals.length; i++) {
+            if (animals[i] % 2 != 0) {
+                animals[i] = animals[i] + 1;
+            }
+        }
+
+        for (int i = 0; i < animals.length; i++) {
+            if (i < (animals.length-1)) {
+                System.out.print(animals[i] + ", ");
+            } else {
+                System.out.println(animals[i]);
+            }
+        }
     }
 }
