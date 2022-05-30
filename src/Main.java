@@ -37,5 +37,34 @@ public class Main {
                 System.out.println(birds[i]);
             }
         }
+
+        // Задача 3
+
+        System.out.println();
+        for (int i = animals.length; i > 0; i--) {
+            if (i > 1) {
+                System.out.print(animals[i - 1] + ", ");
+            } else {
+                System.out.print(animals[i - 1]);
+            }
+        }
+
+        System.out.println();
+        for (int i = weights.length; i > 0; i--) {
+            if (i > 1) {
+                System.out.print(weights[i - 1] + ", ");
+            } else {
+                System.out.print(weights[i - 1]);
+            }
+        }
+
+        System.out.println();
+        for (int i = birds.length; i > 0; i--) {
+            if (i > 1) {
+                System.out.print(birds[i - 1] + ", ");
+            } else {
+                System.out.print(birds[i - 1]);
+            }
+        }
     }
 }
